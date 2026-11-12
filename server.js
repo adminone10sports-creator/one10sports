@@ -64,8 +64,24 @@ const server = http.createServer((req, res) => {
     });
 });
 
-server.listen(PORT, '0.0.0.0', () => {
-    console.log(`ONE10 SPORTS Local Server running at: http://localhost:${PORT}`);
-    console.log(`Serving directory: ${ROOT_DIR}`);
+let currentPort = PORT;
+
+function startServer(port) {
+    server.listen(port, '0.0.0.0', () => {
+        console.log(`ONE10 SPORTS Local Server running at: http://localhost:${port}`);
+        console.log(`Serving directory: ${ROOT_DIR}`);
+    });
+}
+
+server.on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+        console.log(`Port ${currentPort} in use, trying port ${currentPort + 1}...`);
+        currentPort++;
+        startServer(currentPort);
+    } else {
+        console.error('Server error:', err);
+    }
 });
+
+startServer(currentPort);
 
