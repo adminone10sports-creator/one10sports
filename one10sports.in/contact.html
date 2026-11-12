@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us & Enquiries | ONE10 SPORTS</title>
+    <meta name="description" content="Get in touch with ONE10 SPORTS for retail orders, custom teamwear packages, and sportswear enquiries. Call or WhatsApp +91 72769 15170.">
+    <link rel="canonical" href="https://one10sports.in/contact.html">
+    <link rel="icon" type="image/png" href="photos/branding/Main Logo.png">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,600;0,700;0,800;0,900;1,800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/tailwind-config.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#0E1013] text-gray-200 antialiased font-sans selection:bg-[#D4AF37] selection:text-[#0E1013] slat-wall-bg">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-[#12141A] border-b border-[#222630] text-xs py-2.5 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-3 text-gray-300">
+                <span class="inline-flex items-center gap-1.5 text-[#D4AF37] font-bold tracking-widest uppercase">
+                    <span class="w-2 h-2 rounded-full bg-[#D4AF37] animate-pulse"></span>
+                    Direct Customer Support
+                </span>
+                <span class="hidden md:inline text-gray-600">|</span>
+                <span class="hidden md:inline text-gray-400">Retail & Bulk Orders Across India</span>
+            </div>
+            <div class="flex items-center gap-4 text-gray-300">
+                <a href="tel:+917276915170" class="hover:text-[#D4AF37] transition flex items-center gap-1.5">
+                    <i class="fas fa-phone-alt text-[#D4AF37] text-[11px]"></i>
+                    <span class="font-medium">+91 72769 15170</span>
+                </a>
+                <span class="text-gray-700">|</span>
+                <a href="mailto:info@one10sports.in" class="hover:text-[#D4AF37] transition flex items-center gap-1.5">
+                    <i class="fas fa-envelope text-[#D4AF37] text-[11px]"></i>
+                    <span class="font-medium">info@one10sports.in</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 header-glass">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center gap-3.5 group focus:outline-none" aria-label="ONE10 SPORTS Home">
+                    <img src="photos/branding/Main Logo.png" alt="ONE10 SPORTS Logo" class="w-14 h-14 object-contain rounded-full logo-badge-glow group-hover:scale-105 transition duration-300">
+                    <div class="flex flex-col">
+                        <span class="text-2xl font-black font-athletic tracking-wider text-white leading-none">
+                            ONE<span class="text-[#D4AF37]">10</span> <span class="text-base text-gray-300 tracking-[0.2em] font-bold">SPORTS</span>
+                        </span>
+                        <span class="text-[9px] tracking-[0.22em] font-athletic font-semibold text-[#D4AF37] uppercase mt-0.5">
+                            BEYOND LIMITS • BEYOND ORDINARY
+                        </span>
+                    </div>
+                </a>
+
+                <nav class="hidden lg:flex items-center gap-7">
+                    <a href="index.html" class="text-sm font-semibold text-gray-300 hover:text-[#D4AF37] transition py-1">Home</a>
+                    <a href="index.html#categories" class="text-sm font-semibold text-gray-300 hover:text-[#D4AF37] transition py-1">Categories</a>
+                    <a href="index.html#featured" class="text-sm font-semibold text-gray-300 hover:text-[#D4AF37] transition py-1">Featured</a>
+                    <a href="custom-teamwear.html" class="text-sm font-semibold text-gray-300 hover:text-[#D4AF37] transition py-1">Teamwear</a>
+                    <a href="index.html#why-us" class="text-sm font-semibold text-gray-300 hover:text-[#D4AF37] transition py-1">Why ONE10</a>
+                    <a href="about.html" class="text-sm font-semibold text-gray-300 hover:text-[#D4AF37] transition py-1">About</a>
+                    <a href="contact.html" class="text-sm font-semibold text-white border-b-2 border-[#D4AF37] py-1">Contact</a>
+                </nav>
+
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="https://wa.me/917276915170" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-xl btn-gold text-xs font-black uppercase tracking-wider flex items-center gap-2 shadow-gold-glow">
+                        <i class="fab fa-whatsapp text-sm font-black"></i>
+                        <span>WhatsApp (72769 15170)</span>
+                    </a>
+                </div>
+
+                <div class="flex items-center gap-2 lg:hidden">
+                    <button id="mobile-menu-btn" type="button" class="p-2.5 rounded-xl bg-[#181B22] border border-[#2A303C] text-gray-300">
+                        <i id="menu-icon" class="fas fa-bars text-lg"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-[#12141A] border-b border-[#222630] px-4 pt-3 pb-6 space-y-3">
+            <nav class="flex flex-col space-y-2">
+                <a href="index.html" class="mobile-nav-link text-base font-semibold text-gray-300 py-2 border-b border-[#222630]">Home</a>
+                <a href="index.html#categories" class="mobile-nav-link text-base font-semibold text-gray-300 py-2 border-b border-[#222630]">Categories</a>
+                <a href="about.html" class="mobile-nav-link text-base font-semibold text-gray-300 py-2 border-b border-[#222630]">About Us</a>
+                <a href="contact.html" class="mobile-nav-link text-base font-semibold text-white py-2 border-b border-[#222630]">Contact</a>
+            </nav>
+            <div class="pt-3">
+                <a href="https://wa.me/917276915170" target="_blank" class="w-full py-3 rounded-xl btn-gold text-center font-black uppercase tracking-wider flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp text-lg"></i>
+                    <span>Chat on WhatsApp (72769 15170)</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-4">
+                <div class="inline-flex items-center gap-2 text-[#D4AF37] text-xs font-bold uppercase tracking-widest">
+                    <span class="w-2 h-2 rounded-full bg-[#D4AF37]"></span>
+                    Direct Enquiries & Support
+                </div>
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-black font-athletic uppercase text-white tracking-tight">
+                    GET IN TOUCH WITH <span class="text-[#D4AF37]">ONE10 SPORTS</span>
+                </h1>
+                <p class="text-gray-300 text-base leading-relaxed">
+                    Have questions about retail orders, customized club jerseys, or sports academy uniforms? Connect directly with our team.
+                </p>
+            </div>
+
+            <!-- Contact Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+                
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="sport-card rounded-2xl p-6 space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-[#0E1013] text-[#D4AF37] flex items-center justify-center text-xl">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h2 class="text-lg font-bold text-white uppercase font-athletic">WhatsApp Enquiry</h2>
+                        <p class="text-gray-400 text-xs leading-relaxed">Direct messaging for quotes, sizing charts, and custom logo sublimation previews.</p>
+                        <a href="https://wa.me/917276915170?text=Hi%20ONE10%20SPORTS%2C%20I%20would%20like%20to%20enquire%20about%20your%20products." 
+                           target="_blank" 
+                           rel="noopener noreferrer" 
+                           class="inline-flex items-center gap-2 text-sm font-bold text-[#D4AF37] hover:underline">
+                            <span>+91 72769 15170</span>
+                            <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+
+                    <div class="sport-card rounded-2xl p-6 space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-[#0E1013] text-[#D4AF37] flex items-center justify-center text-xl">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h2 class="text-lg font-bold text-white uppercase font-athletic">Direct Voice Line</h2>
+                        <p class="text-gray-400 text-xs leading-relaxed">Speak directly with our sportswear order coordinator.</p>
+                        <a href="tel:+917276915170" class="inline-flex items-center gap-2 text-sm font-bold text-[#D4AF37] hover:underline">
+                            <span>+91 72769 15170</span>
+                            <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+
+                    <div class="sport-card rounded-2xl p-6 space-y-4">
+                        <div class="w-12 h-12 rounded-xl bg-[#0E1013] text-[#D4AF37] flex items-center justify-center text-xl">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h2 class="text-lg font-bold text-white uppercase font-athletic">Email Communication</h2>
+                        <p class="text-gray-400 text-xs leading-relaxed">Send institutional tenders, RFQs, and bulk uniform design files.</p>
+                        <a href="mailto:info@one10sports.in" class="inline-flex items-center gap-2 text-sm font-bold text-[#D4AF37] hover:underline">
+                            <span>info@one10sports.in</span>
+                            <i class="fas fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+
+                    <div class="sport-card rounded-2xl p-6 space-y-2">
+                        <span class="text-xs text-gray-500 uppercase font-bold tracking-widest">Brand Standards</span>
+                        <p class="text-white font-bold text-sm">Beyond Limits • Beyond Ordinary</p>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="bg-[#14171D] border border-[#2A303C] rounded-3xl p-6 sm:p-10 shadow-2xl">
+                        <h2 class="text-2xl font-black font-athletic uppercase text-white mb-2">
+                            Product & Bulk Enquiry Form
+                        </h2>
+                        <p class="text-gray-400 text-xs mb-6">
+                            Fill in your details and requirements. All fields marked with * are required.
+                        </p>
+
+                        <form id="main-enquiry-form" class="space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="contact-name" class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1.5">
+                                        Your Name <span class="text-[#D4AF37]">*</span>
+                                    </label>
+                                    <input type="text" id="contact-name" name="name" required placeholder="Full Name" class="w-full px-4 py-3 rounded-xl form-input-sport text-sm">
+                                </div>
+                                <div>
+                                    <label for="contact-mobile" class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1.5">
+                                        Mobile Number <span class="text-[#D4AF37]">*</span>
+                                    </label>
+                                    <input type="tel" id="contact-mobile" name="mobile" required placeholder="10-digit number" class="w-full px-4 py-3 rounded-xl form-input-sport text-sm">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="contact-email" class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1.5">
+                                        Email Address <span class="text-gray-500 text-[10px] lowercase">(optional)</span>
+                                    </label>
+                                    <input type="email" id="contact-email" name="email" placeholder="name@example.com" class="w-full px-4 py-3 rounded-xl form-input-sport text-sm">
+                                </div>
+                                <div>
+                                    <label for="contact-city" class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1.5">
+                                        City / State <span class="text-[#D4AF37]">*</span>
+                                    </label>
+                                    <input type="text" id="contact-city" name="city" required placeholder="Your City" class="w-full px-4 py-3 rounded-xl form-input-sport text-sm">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label for="contact-category" class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1.5">
+                                        Product Category <span class="text-[#D4AF37]">*</span>
+                                    </label>
+                                    <select id="contact-category" name="category" required class="w-full px-4 py-3 rounded-xl form-input-sport text-sm">
+                                        <option value="" disabled selected>Select Category</option>
+                                        <option value="Sports T-Shirts">Sports T-Shirts</option>
+                                        <option value="Jerseys">Jerseys</option>
+                                        <option value="Tracksuits">Tracksuits</option>
+                                        <option value="Shorts">Shorts</option>
+                                        <option value="Lower / Track Pants">Lower / Track Pants</option>
+                                        <option value="Gym Wear">Gym Wear</option>
+                                        <option value="Cricket Wear">Cricket Wear</option>
+                                        <option value="Football Wear">Football Wear</option>
+                                        <option value="Custom Team Uniforms">Custom Team Uniforms</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="contact-quantity" class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1.5">
+                                        Approx Quantity <span class="text-[#D4AF37]">*</span>
+                                    </label>
+                                    <input type="number" id="contact-quantity" name="quantity" min="1" required placeholder="e.g. 20" class="w-full px-4 py-3 rounded-xl form-input-sport text-sm">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-2">
+                                    Order Type <span class="text-[#D4AF37]">*</span>
+                                </label>
+                                <div class="grid grid-cols-2 gap-3">
+                                    <label class="flex items-center gap-3 p-3 rounded-xl bg-[#0E1013] border border-[#2A303C] cursor-pointer hover:border-[#D4AF37] transition">
+                                        <input type="radio" name="order_type" value="Retail" checked class="text-[#D4AF37]">
+                                        <span class="text-xs font-bold text-white uppercase">Retail Order</span>
+                                    </label>
+                                    <label class="flex items-center gap-3 p-3 rounded-xl bg-[#0E1013] border border-[#2A303C] cursor-pointer hover:border-[#D4AF37] transition">
+                                        <input type="radio" name="order_type" value="Bulk" class="text-[#D4AF37]">
+                                        <span class="text-xs font-bold text-white uppercase">Bulk / Teamwear</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="contact-message" class="block text-xs font-bold uppercase tracking-wider text-gray-300 mb-1.5">
+                                    Message / Requirements
+                                </label>
+                                <textarea id="contact-message" name="message" rows="3" placeholder="Tell us more about your requirement..." class="w-full px-4 py-3 rounded-xl form-input-sport text-sm"></textarea>
+                            </div>
+
+                            <button type="submit" id="form-submit-btn" class="w-full py-4 rounded-xl btn-gold font-athletic uppercase tracking-wider text-base transition flex items-center justify-center gap-2 shadow-gold-glow">
+                                <span>Submit Enquiry</span>
+                                <i class="fas fa-arrow-right text-xs"></i>
+                            </button>
+                        </form>
+
+                        <div id="form-feedback" class="hidden"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#0B0C0E] border-t border-[#222630] text-gray-400 pt-16 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-[#222630]">
+                <div class="lg:col-span-5 space-y-4">
+                    <div class="flex items-center gap-3.5">
+                        <img src="photos/branding/Main Logo.png" alt="ONE10 Logo" class="w-12 h-12 object-contain rounded-full logo-badge-glow">
+                        <span class="text-2xl font-black font-athletic tracking-wider text-white">ONE<span class="text-[#D4AF37]">10</span> SPORTS</span>
+                    </div>
+                    <p class="text-xs text-gray-400 leading-relaxed max-w-sm">
+                        Pro-grade sportswear, activewear, and custom team uniforms designed for champions. Beyond Limits • Beyond Ordinary.
+                    </p>
+                </div>
+                <div class="lg:col-span-3 space-y-3">
+                    <h4 class="text-white font-bold text-sm uppercase font-athletic">Quick Navigation</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="index.html" class="hover:text-[#D4AF37] transition">Home</a></li>
+                        <li><a href="index.html#categories" class="hover:text-[#D4AF37] transition">Shop Categories</a></li>
+                        <li><a href="about.html" class="hover:text-[#D4AF37] transition">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-[#D4AF37] transition">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="lg:col-span-4 space-y-3">
+                    <h4 class="text-white font-bold text-sm uppercase font-athletic">Direct Channels</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li>Email: <a href="mailto:info@one10sports.in" class="hover:text-white">info@one10sports.in</a></li>
+                        <li>Phone & WhatsApp: <a href="tel:+917276915170" class="hover:text-white">+91 72769 15170</a></li>
+                        <li>Fulfillment: Nationwide Dispatch Across India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+                <p>© 2026 ONE10 SPORTS. All rights reserved.</p>
+                <div class="flex items-center gap-4">
+                    <a href="privacy-policy.html" class="hover:text-gray-300 transition">Privacy Policy</a>
+                    <a href="terms-conditions.html" class="hover:text-gray-300 transition">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

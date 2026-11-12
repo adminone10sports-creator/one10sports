@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" fill="none">
+  <!-- Dynamic Athletic Icon / Monogram -->
+  <g transform="translate(10, 10)">
+    <!-- Speed Slash 1 -->
+    <path d="M12 58 L28 4 L44 4 L28 58 Z" fill="#C7F000" />
+    <!-- Dynamic Hexagonal / Slanted 10 Emblem -->
+    <path d="M38 58 L54 4 L74 4 L58 58 Z" fill="#FFFFFF" />
+    <!-- Geometric 0 Badge with Inner Speed Cut -->
+    <path d="M72 16 C72 7 78 4 88 4 L98 4 C108 4 114 9 114 20 L110 42 C110 52 104 58 94 58 L84 58 C74 58 70 51 70 42 Z" fill="#C7F000" />
+    <path d="M84 16 L94 16 L90 44 L80 44 Z" fill="#111318" />
+  </g>
+  <!-- Brand Typography -->
+  <g transform="translate(140, 48)">
+    <text font-family="'Montserrat', 'Oswald', 'Impact', sans-serif" font-weight="900" font-size="34" letter-spacing="2" fill="#FFFFFF">ONE10</text>
+    <text x="2" y="18" font-family="'Oswald', 'Montserrat', sans-serif" font-weight="700" font-size="14" letter-spacing="6" fill="#C7F000">SPORTSWEAR</text>
+  </g>
+</svg>
+
